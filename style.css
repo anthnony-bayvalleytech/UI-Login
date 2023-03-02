@@ -1,0 +1,52 @@
+.container-fluid {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+#bgvid {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 50%;
+	min-height: 50%;
+	z-index: 0;
+}
+
+.login-box {
+	display: flex;
+	height: 40vh;
+	width: 25vw;
+	flex-direction: column;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	background-color: cadetblue;
+	border-radius: 25%;
+	box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.75);
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+
+}
+
+#username,
+#password-in {
+	margin-top: 3px;
+	border-radius: 2px;
+}
+
+#login-button {
+	margin-top: 3px;
+	border-radius: 2px;
+}
+
+@media (any-hover:hover) {
+
+	#username:hover,
+	#password-in:hover {
+		background-color: rgb(172, 172, 172);
+	}
+}
